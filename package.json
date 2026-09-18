@@ -1,0 +1,14 @@
+{
+  "name": "homepros-sites",
+  "version": "0.1.0",
+  "private": true,
+  "packageManager": "pnpm@12.3.4",
+  "scripts": {
+    "dev": "pnpm --filter gettysburg-mold-help dev",
+    "dev:gettysburg": "pnpm --filter gettysburg-mold-help dev",
+    "dev:york": "pnpm --filter york-radon-help dev",
+    "build": "pnpm -r build",
+    "build:gettysburg": "pnpm --filter gettysburg-mold-help build",
+    "build:york": "pnpm --filter york-radon-help build"
+  }
+}

@@ -1,0 +1,76 @@
+@import 'tailwindcss';
+
+@source '../components';
+@source '../../../packages/shared/src';
+
+@theme inline {
+  /* Site-scoped semantic tokens (resolved on the .theme-gettysburg wrapper) */
+  --color-site-bg: var(--site-bg);
+  --color-site-fg: var(--site-fg);
+  --color-site-surface: var(--site-surface);
+  --color-site-surface-2: var(--site-surface-2);
+  --color-site-border: var(--site-border);
+  --color-site-primary: var(--site-primary);
+  --color-site-primary-hover: var(--site-primary-hover);
+  --color-site-primary-fg: var(--site-primary-fg);
+  --color-site-accent: var(--site-accent);
+  --color-site-muted-fg: var(--site-muted-fg);
+  --color-site-dark: var(--site-dark);
+  --color-site-dark-fg: var(--site-dark-fg);
+  --color-site-ring: var(--site-ring);
+
+  --font-display: var(--font-display-family);
+  --font-body: var(--font-body-family);
+  --font-mono: var(--font-mono-family);
+}
+
+/* ---------- Gettysburg: warm editorial ---------- */
+.theme-gettysburg {
+  --site-bg: #f6f2e9;
+  --site-fg: #2a2823;
+  --site-surface: #fdfbf5;
+  --site-surface-2: #ece6d8;
+  --site-border: #dcd5c4;
+  --site-primary: #515b3a;
+  --site-primary-hover: #414a2e;
+  --site-primary-fg: #f7f5ec;
+  --site-accent: #7c8556;
+  --site-muted-fg: #6a655a;
+  --site-dark: #2c312a;
+  --site-dark-fg: #e9ece1;
+  --site-ring: #515b3a;
+
+  --font-display-family: var(--font-source-serif), ui-serif, Georgia, serif;
+  --font-body-family: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  --font-mono-family: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+
+  background-color: var(--site-bg);
+  color: var(--site-fg);
+  font-family: var(--font-body-family);
+}
+
+@layer base {
+  * {
+    border-color: var(--site-border, currentColor);
+  }
+  :focus-visible {
+    outline: 2px solid var(--site-ring, #515b3a);
+    outline-offset: 2px;
+  }
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 5rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    transition-duration: 0.001ms !important;
+  }
+}
