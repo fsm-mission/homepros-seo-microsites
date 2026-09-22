@@ -13,6 +13,7 @@ export const gettysburgConfig: SiteConfig = {
   nav: [
     { label: 'Mold Help', href: '#what-remediation-involves' },
     { label: 'Costs', href: '#cost-factors' },
+    { label: 'Mold Remediation Cost', href: '/mold-remediation-cost-gettysburg-pa/' },
     { label: 'Testing', href: '#mold-testing' },
     { label: 'Mold Testing', href: '/mold-testing-gettysburg-pa/' },
     { label: 'Resources', href: '#contractor-checklist' },
