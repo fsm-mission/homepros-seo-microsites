@@ -17,7 +17,7 @@ const QUESTIONS = [
 
 export function QuestionsChecklist() {
   return (
-    <Section tone="surface">
+    <Section tone="surface" className="py-16 sm:py-20">
       <div className="max-w-3xl">
         <SectionHeading
           title="Questions to Ask Before Paying for Mold Testing"

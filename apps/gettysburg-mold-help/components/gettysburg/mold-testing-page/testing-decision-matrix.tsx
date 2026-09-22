@@ -92,7 +92,7 @@ export function TestingDecisionMatrix() {
                   {row.situation}
                 </th>
                 <td className="border-l border-site-border px-6 py-5 align-top">
-                  <span className="inline-block rounded-md bg-site-accent/10 px-2.5 py-1 text-sm leading-relaxed text-site-fg">
+                  <span className="inline-block rounded-md border border-site-border bg-site-surface-2 px-2.5 py-1 text-sm leading-relaxed text-site-fg">
                     {row.help}
                   </span>
                 </td>
@@ -108,7 +108,7 @@ export function TestingDecisionMatrix() {
       {/* Mobile: stacked DecisionItems — no horizontal scroll, labels preserved. */}
       <ul className="flex flex-col divide-y divide-site-border overflow-hidden rounded-xl border border-site-border bg-site-surface md:hidden">
         {ROWS.map((row) => (
-          <li key={row.situation} className="flex flex-col gap-4 px-5 py-6">
+          <li key={row.situation} className="flex flex-col gap-5 px-5 py-8 sm:py-6">
             <div>
               <p className="text-[11px] font-semibold uppercase tracking-[0.12em] font-mono text-site-accent">
                 Your situation

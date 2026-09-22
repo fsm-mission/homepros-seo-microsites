@@ -4,7 +4,7 @@ import { NeutralList, Prose } from './primitives'
 
 export function PennsylvaniaGuidance() {
   return (
-    <Section tone="default">
+    <Section tone="default" className="py-16 sm:py-20">
       <div className="max-w-3xl">
         <SectionHeading title="What Pennsylvania Says About Mold" />
         <div className="mt-6 flex flex-col gap-5">
@@ -39,7 +39,7 @@ export function PennsylvaniaGuidance() {
 
 export function RentersOwnersManagers() {
   return (
-    <Section tone="muted">
+    <Section tone="muted" className="py-16 sm:py-20">
       <div className="max-w-3xl">
         <SectionHeading
           title="Mold Testing for Renters, Owners, and Property Managers"

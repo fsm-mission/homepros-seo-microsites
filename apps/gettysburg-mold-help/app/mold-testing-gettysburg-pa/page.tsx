@@ -27,14 +27,9 @@ import { RelatedResources } from '@/components/gettysburg/mold-testing-page/rela
 
 const CANONICAL = 'https://gettysburgmoldhelp.com/mold-testing-gettysburg-pa/'
 
-/**
- * TODO(metadata): Final title/description strings are placeholders pending
- * copy/SEO approval. The primary keyword/service/location relationship
- * (mold testing · Gettysburg, PA) is preserved.
- */
-const TITLE = 'Mold Testing in Gettysburg, PA: When It Helps and When It May Not | Gettysburg Mold Help'
+const TITLE = 'Mold Testing in Gettysburg, PA | When Testing Helps'
 const DESCRIPTION =
-  'Deciding whether you need mold testing in Gettysburg, PA? Understand when testing helps, when it may not, and what questions to ask before paying for it. Managed by HomePros Team.'
+  'Learn when mold testing in Gettysburg, PA may be useful, when it may add little, and how moisture investigation, sampling, and remediation differ.'
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://gettysburgmoldhelp.com'),

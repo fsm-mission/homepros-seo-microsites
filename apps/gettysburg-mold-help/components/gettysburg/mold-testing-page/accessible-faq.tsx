@@ -138,7 +138,7 @@ const FAQS: { question: string; answer: React.ReactNode }[] = [
 
 export function AccessibleFaq() {
   return (
-    <Section id="faqs" tone="default">
+    <Section id="faqs" tone="default" className="py-16 sm:py-20">
       <div className="max-w-3xl">
         <SectionHeading eyebrow="Questions & answers" title="Mold Testing FAQs" />
         <div className="mt-10 flex flex-col divide-y divide-site-border border-y border-site-border">
