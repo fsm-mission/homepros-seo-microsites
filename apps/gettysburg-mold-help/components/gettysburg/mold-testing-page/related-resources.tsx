@@ -22,7 +22,7 @@ const RESOURCES: { label: string; href: string; live: boolean }[] = [
 
 export function RelatedResources() {
   return (
-    <Section tone="muted">
+    <Section tone="muted" className="py-16 sm:py-20">
       <div className="max-w-3xl">
         <SectionHeading title="Related Resources" />
         <ul className="mt-8 flex flex-col divide-y divide-site-border border-y border-site-border">

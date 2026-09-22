@@ -5,7 +5,7 @@ import { ContextualLink, KeyQuestion, NeutralList, Prose, SubHeading } from './p
 
 export function DoYouNeedTesting() {
   return (
-    <Section tone="default">
+    <Section tone="default" className="py-16 sm:py-20">
       <div className="max-w-3xl">
         <SectionHeading title="Do You Need Mold Testing?" />
         <div className="mt-6 flex flex-col gap-5">
@@ -31,7 +31,7 @@ export function DoYouNeedTesting() {
 
 export function DecisionMatrixSection() {
   return (
-    <Section tone="surface">
+    <Section tone="surface" className="py-16 sm:py-20">
       <SectionHeading eyebrow="Decision tool" title="Should I Test for Mold?" />
       <TestingDecisionMatrix />
 
@@ -55,7 +55,7 @@ export function DecisionMatrixSection() {
 
 export function SignsFurtherEvaluation() {
   return (
-    <Section tone="muted">
+    <Section tone="muted" className="py-16 sm:py-20">
       <div className="max-w-3xl">
         <SectionHeading
           title="Signs You May Need Further Mold Evaluation"
@@ -108,7 +108,7 @@ export function SignsFurtherEvaluation() {
 
 export function WhenTestingMayBeUseful() {
   return (
-    <Section tone="default">
+    <Section tone="default" className="py-16 sm:py-20">
       <div className="max-w-3xl">
         <SectionHeading
           title="When Testing May Be Useful"
@@ -187,7 +187,7 @@ export function WhenTestingMayBeUseful() {
 
 export function WhenTestingMayNotAdd() {
   return (
-    <Section tone="surface">
+    <Section tone="surface" className="py-16 sm:py-20">
       <div className="max-w-3xl">
         <SectionHeading
           title="When Testing May Not Add Much"
@@ -247,7 +247,7 @@ export function WhenTestingMayNotAdd() {
 
 export function TestingVsMoisture() {
   return (
-    <Section tone="default">
+    <Section tone="default" className="py-16 sm:py-20">
       <div className="max-w-3xl">
         <SectionHeading
           title="Mold Testing vs. Moisture Investigation"
@@ -307,7 +307,7 @@ export function ProfessionalEvaluation() {
     'determining whether sampling would provide useful additional information',
   ]
   return (
-    <Section tone="muted">
+    <Section tone="muted" className="py-16 sm:py-20">
       <div className="max-w-3xl">
         <SectionHeading
           title="What a Professional Mold Evaluation May Include"
@@ -353,7 +353,7 @@ export function ProfessionalEvaluation() {
 
 export function SamplingMethods() {
   return (
-    <Section tone="default">
+    <Section tone="default" className="py-16 sm:py-20">
       <div className="max-w-3xl">
         <SectionHeading
           title="Air Testing, Surface Sampling, and Other Mold Tests"

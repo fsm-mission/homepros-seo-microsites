@@ -34,7 +34,7 @@ const COST_FACTORS = [
 
 export function CostFactors() {
   return (
-    <Section tone="surface">
+    <Section tone="surface" className="py-16 sm:py-20">
       <div className="max-w-3xl">
         <SectionHeading title="What Affects Mold Testing Cost?" />
         <div className="mt-6 flex flex-col gap-5">
@@ -81,11 +81,11 @@ export function CostFactors() {
               <tr key={row.factor}>
                 <th
                   scope="row"
-                  className="px-6 py-5 align-top text-base font-medium text-site-fg"
+                  className="px-6 py-6 align-top text-base font-medium text-site-fg sm:py-5"
                 >
                   {row.factor}
                 </th>
-                <td className="border-l border-site-border px-6 py-5 align-top text-base leading-relaxed text-site-muted-fg">
+                <td className="border-l border-site-border px-6 py-6 align-top text-base leading-relaxed text-site-muted-fg sm:py-5">
                   {row.why}
                 </td>
               </tr>
@@ -141,7 +141,7 @@ export function AfterTesting() {
     'Has the moisture problem been addressed?',
   ]
   return (
-    <Section tone="default">
+    <Section tone="default" className="py-16 sm:py-20">
       <div className="max-w-3xl">
         <SectionHeading
           title="What to Do After Mold Testing"
