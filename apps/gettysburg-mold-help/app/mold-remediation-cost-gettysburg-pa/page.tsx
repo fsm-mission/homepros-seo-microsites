@@ -25,12 +25,9 @@ import { RelatedResources } from '@/components/gettysburg/mold-remediation-cost-
 
 const CANONICAL = 'https://gettysburgmoldhelp.com/mold-remediation-cost-gettysburg-pa/'
 
-// TODO(metadata): No approved title/meta description was supplied for this route.
-// Provisional values below are derived from the approved H1 so the page is not
-// left without metadata; replace with the approved title/description when available.
-const TITLE = 'What Does Mold Remediation Cost in Gettysburg, PA?'
+const TITLE = 'Mold Remediation Cost in Gettysburg, PA | Cost Factors'
 const DESCRIPTION =
-  'Understand what affects mold remediation cost in Gettysburg, PA, why there is no one-size-fits-all price, and how to compare estimates by scope of work.'
+  'Learn what affects mold remediation cost in Gettysburg, PA, how to compare estimates by scope, and what to ask before approving remediation work.'
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://gettysburgmoldhelp.com'),
